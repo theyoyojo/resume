@@ -1,0 +1,85 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Joel O. Savitz}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{1188 Middlesex St}
+ \moveleft.5\hoffset\centerline{Lowell, MA 01851}
+ \moveleft.5\hoffset\centerline{+1 (857) 231-0637 | joelsavitz@gmail.com | github.com/theyoyojo}
+ \moveleft.5\hoffset\centerline{joelsavitz.com}
+
+
+\begin{resume}
+ 
+ 
+%\section{OBJECTIVE}  A position in the field of computers with special 
+%                interests in business applications programming, 
+  %              information processing, and management systems. 
+ 
+
+\section{EDUCATION} {\sl Bachelor of Science,} Computer Science \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                University of Massachusetts Lowell, Lowell, MA  \hfill Spring 2021 \newline
+				 Honors College, Honors Fellowships, Dean's list \hfill GPA: 3.98
+ 
+ 
+\section{SKILLS} {\sl Languages:} C (standard and GNU), C++ (2011 standard),
+		Python (2 and 3), Bourne shell, Bourne-again shell, x86\_64 and x86 assembly language, \LaTeX, markdown, GNU Make, exposure to rust, javascript, ruby, GNU autotools \\
+				  {\sl Tools:} Git, GDB, valgrind, vim, vim plugins, GitHub, GitHub pages, HTML+CSS \\
+                {\sl Operating Systems:} Linux, Windows, Unix-like OSs (e.g. macOS). \\
+                {\sl Linux Distributions: } Arch, RHEL, Fedora, Ubuntu, ChromeOS. \\
+                {\sl Other: } Office Software (Google Drive, MS Office, Libreoffice), effective
+                oral and written communication, tech support, computer hardware, web hosting systems,
+                domain configuration, patience
+ 
+\section{EXPERIENCE} {\sl Linux Kernel Engineering Cooperative Internship} \hfill January 2019 to Present\\
+                Red Hat, 
+                Red Hat Enterprise Linux Core Kernel Subsystem Team, Westford MA
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Developing and debugging Red Hat Enterprise Linux. 
+                \item   Contributing to Free and Open Source Software
+                \item Contributing to the Linux Kernel
+                \item Automating all things that can be automated
+                \end{itemize}
+ 
+                {\sl Developer and Research Assistant} \hfill            November 2017 to December 2018 \\
+                Engaging Computing Group research laboratory, University of Massachusetts Lowell
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Worked on IoT sensor network project to analyze salinity in groundwater following storm surge
+                 \item Developing and demonstrating examples of distributed games on IoT devices for educational purposes
+				  \item Researching and developing innovations in computer science education
+				  \item Co-authored research paper on virtual reality for education, Published at SIGCSE 2019
+                 \end{itemize} 
+                {\sl Co-Founder and President} \hfill        April 2016 to Present \\
+                TechSimple, Newton MA
+                  \begin{itemize}   \itemsep -2pt %reduce space between items
+                   \item Solving technology problems of those who grew up before the age of computers and smartphones
+                   \item See http://techsimple.co for more information
+                   \end{itemize} 
+
+  {\sl Research Associate and Personal Assistant} \hfill            August 2016 to April 2017  \\
+  Professor Marcia Feld, Newton MA
+   	               \begin{itemize}   \itemsep -2pt %reduce space between items
+					\item Took dictation and notes from former professor of city planning and turned them into a digital format
+					\item Co-authored a report on the housing situation in Newton for members of the Jewish Community based on a survey from early 2016
+					\item Worked with city planners from the City of Newton
+					\item Managed email communications and general office organization
+                   \end{itemize} 
+
+\end{resume}
+\end{document}
+
+
+
+
