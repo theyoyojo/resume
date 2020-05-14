@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.20)  30 APR 2020 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.3)  13 MAY 2020 20:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -71,7 +71,7 @@ Overfull \hbox (6.4649pt too wide) in paragraph at lines 77--79
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] ) 
 Here is how much of TeX's memory you used:
  323 strings out of 492167
- 3451 string characters out of 6131558
+ 3451 string characters out of 6131559
  68003 words of memory out of 5000000
  4764 multiletter control sequences out of 15000+600000
  4906 words of font info for 18 fonts, out of 8000000 for 9000
